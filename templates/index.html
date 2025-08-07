@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal Advisor Bot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+  <div class="layout">
+    <aside class="profile-section">
+      <h2>Client Intake</h2>
+      <input type="text" id="name" placeholder="Full Name" />
+      <input type="number" id="age" placeholder="Age" />
+      <select id="gender">
+        <option value="">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <div class="branding">
+        <p>⚖️ LegalHelp.ai</p>
+        <small>Your trusted legal assistant</small>
+      </div>
+    </aside>
+
+    <main class="chat-section">
+      <header>
+        <h1>Ask Your Question</h1>
+        <p>Or choose a topic below to begin</p>
+      </header>
+
+      <div class="topics">
+        <button onclick="setIssue('Understanding labor laws')">Labor Laws</button>
+        <button onclick="setIssue('My tenant rights')">Tenant Rights</button>
+        <button onclick="setIssue('Unpaid wages')">Wage Dispute</button>
+        <button onclick="setIssue('Harassment complaint')">Harassment</button>
+      </div>
+
+      <div class="chatbox" id="chatbox"></div>
+
+      <div class="user-input">
+        <input type="text" id="userInput" placeholder="Describe your issue..." />
+        <button onclick="sendMessage()">➤</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="../static/index.static.js"></script>
+</body>
+</html>
