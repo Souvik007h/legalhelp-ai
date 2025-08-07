@@ -17,11 +17,10 @@ Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.
 
 ## 🖼️ Screenshots
 
-| Home Screen (Desktop View) | Chat with Legal AI |
-|----------------------------|---------------------|
-| ![Home Screenshot](static/screenshots/home.png) | ![Chat Screenshot](static/screenshots/chat.png) |
+|Chat with LegalHelp.ai| 
+|----------------------------|
+| ![Home Screenshot](static/sample.png)|
 
-> *(Make sure to place actual screenshots inside `static/screenshots/` folder.)*
 
 ---
 
@@ -56,3 +55,12 @@ Whether it’s a wage issue, rental dispute, or harassment complaint, LegalHelp.
 ```bash
 git clone https://github.com/yourusername/legalhelp-ai.git
 cd legalhelp-ai
+```
+### 🐍 2. Create Virtual Environment & Install Requirements
+
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
