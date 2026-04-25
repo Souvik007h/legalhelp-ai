@@ -123,8 +123,6 @@ legalhelp-ai/
 👨‍💻 Contributors
 
 Souvik Halder📫 [hsouvik605@gmail.com] | Kunal Guha 📫 [kunalguh2003@gmail.com] | Subhadip Bag📫 [subhadipbag906@gmail.com]
-Sudip Mahapatra📫 [sudipmahapatra22445123@gmail.com] | Sovana Majhi📫 [majhisovana04@gmail.com] | Ankush Panja📫 [ankushpanja2026@gmail.com]
-Surojit Biswas📫 [rb2589227@gmail.com]
 
 
 ---
